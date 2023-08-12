@@ -23,9 +23,7 @@ public class ModifyPassword implements MyAction{
         System.out.print("请输入新密码(大于8个字符,由大小写字母、数字和标点符号组成 ):");
         newPassword=this.scanner.nextLine();
         int flag=0;
-        System.out.println(username);
         for(Users user : users){
-            
             if(user.getName().equals(username)){
                 flag=1;
                 user.updatePass(newPassword);

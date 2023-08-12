@@ -32,7 +32,7 @@ public class ExcelIn{
             Row row = sheet.getRow(i);
             for(Cell cell : row){
 
-                String value=cell.getStringCellValue();
+                String value=cell.getStringCellValue().toString();
                 list.add(value);
                 
             }
@@ -59,7 +59,7 @@ public class ExcelIn{
             ArrayList<String> list = new ArrayList<String>();
             Row row = sheet.getRow(i);
             for(Cell cell : row){
-                String value=cell.getStringCellValue();
+                String value=cell.getStringCellValue().toString();
                 list.add(value);
                 
             }
@@ -86,7 +86,7 @@ public class ExcelIn{
             Row row = sheet.getRow(i);
             for(Cell cell : row){
                 
-                String value=cell.getStringCellValue();
+                String value=cell.getStringCellValue().toString();
                 list.add(value);
                 
             }
@@ -112,7 +112,7 @@ public class ExcelIn{
             ArrayList<String> list = new ArrayList<String>();
             Row row = sheet.getRow(i);
             for(Cell cell : row){
-                String value=cell.getStringCellValue();
+                String value=cell.getStringCellValue().toString();
                 list.add(value);
                 
             }
@@ -138,7 +138,7 @@ public class ExcelIn{
             ArrayList<String> list = new ArrayList<String>();
             Row row = sheet.getRow(i);
             for(Cell cell : row){
-                String value=cell.getStringCellValue();
+                String value=cell.getStringCellValue().toString();
                 list.add(value);
                 
             }

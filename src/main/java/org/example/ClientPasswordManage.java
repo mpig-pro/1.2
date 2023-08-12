@@ -11,6 +11,7 @@ public class ClientPasswordManage implements MyAction{                          
 
     public ClientPasswordManage(Scanner scanner,ArrayList<Users> users){
         this.scanner=scanner;
+        this.users=users;
     }
     
     private void init(){
